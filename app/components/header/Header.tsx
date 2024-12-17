@@ -22,6 +22,7 @@ export function Header() {
     >
       {/* Logo */}
       <div className="flex items-center gap-2 text-bolt-elements-textPrimary cursor-pointer ">
+        <img src="/dehost-navbar.png" alt="DeHost Logo" className="w-8 h-8" />
         <a href="/" className="text-3xl font-extrabold text-purple-400 flex items-center shadow-xl">
           DeHost
         </a>
